@@ -1,0 +1,35 @@
+h3 {
+    margin-left: 115px;
+
+}
+
+input {
+    border: 2px solid #000;
+    box-sizing: border-box;
+    width: 255px;
+    height: 60px;
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+button {
+    display:flex
+    justify-content: center;
+    font-size: 18px;
+    width: 60px;
+    height: 60px;
+    color: black;
+    vertical-align: middle;
+    border-color: #fff;
+}
+
+button.clear, button.equal{
+    display:flex
+    justify-content: center;
+    font-size: 30px;
+    width: 125px;
+    height: 60px;
+    color: black;
+    vertical-align: middle;
+    border-color: #fff;
+}
